@@ -3,7 +3,7 @@ import React from "react";
 
 
 function Item (props) {
-    const {title, price, detail, img}= props;
+    const {title, price, detail, img,size}= props;
     return(
 <div>
     <div>

@@ -1,18 +1,15 @@
 
-import './components/Flex.css';
-import './components/Salud.css';
+import '../Flex.css';
+import '../Salud.css';
 import React from 'react';
 
-export default function ItemListContainer () {
+export default function ItemListContainer ({saludo,children}) {
+    
     return(
-        <div className="flex"> {props.children} </div> 
+        <div className="flex"> {children} </div> 
     )
 }
 
-export function ItemListContainer (props) {
-    return(
-        <div className='saludo'> {props.saludo} </div> 
-    )
-}
+
 
 

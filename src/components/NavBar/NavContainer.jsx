@@ -1,4 +1,4 @@
-import './components/Flex.css';
+import '../Flex.css';
 import React from 'react';
 
 

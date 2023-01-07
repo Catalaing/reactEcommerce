@@ -1,10 +1,10 @@
 import './App.css';
-import './Flex.css'; 
-import './Salud.css';
+import './components/Flex.css'; 
+import './components/Salud.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavContainer from './components/NavBar/NavContainer';
-
+import Item from './components/ItemListContainer/Item';
 
 
 
